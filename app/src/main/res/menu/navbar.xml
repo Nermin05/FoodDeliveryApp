@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bell"
+        android:icon="@drawable/cooking"
+        android:title=""
+        />
+    <item
+        android:id="@+id/nav_grid"
+        android:icon="@drawable/cookingiki"
+        android:title=""
+        />
+    <item
+        android:id="@+id/nav_heart"
+        android:icon="@drawable/urek"
+        android:title=""
+        android:iconTint="#A3A9BA"/>
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/buy"
+        android:title=""
+        android:iconTint="#A3A9BA"/>
+</menu>

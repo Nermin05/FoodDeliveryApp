@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@color/black"
+   >
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageRow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_launcher_foreground"
+               android:layout_marginTop="5dp"
+                android:layout_margin="10dp"
+               />
+
+            <TextView
+                android:id="@+id/recyclerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_title"
+
+                android:layout_marginTop="10dp"
+                android:textColor="#5d5f6c"
+                android:textSize="13sp"/>
+        </LinearLayout>
+</LinearLayout>
